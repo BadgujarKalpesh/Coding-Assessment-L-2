@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>SELECT YOUR CHOICE</h1>
+    <div class="tabs">
+        <button id="tab-men" class="tab-button active" onclick="showTab('men')">Men</button>
+        <button id="tab-women" class="tab-button" onclick="showTab('women')">Women</button>
+        <button id="tab-kids" class="tab-button" onclick="showTab('kids')">Kids</button>
+    </div>
+
+    <div class="product-container" id="product-container">
+        <!-- Product cards will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
